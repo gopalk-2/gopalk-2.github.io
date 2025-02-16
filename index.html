@@ -5,18 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI & Low-Code Insights</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px 50px;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            margin-top: 60px;
+        }
+        .hero input {
+            padding: 10px;
+            width: 250px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            background: white;
+            border: none;
+            border-radius: 5px;
+            color: #2575fc;
+            cursor: pointer;
+        }
+        .about, .articles {
+            text-align: center;
+            padding: 50px 20px;
+            background: white;
+        }
+        .article-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .article {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
     <header>
         <nav>
+            <div class="logo">AI & Low-Code Insights</div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">About</a></li>
             </ul>
         </nav>
-        <h1>AI & Low-Code Insights</h1>
     </header>
     
     <!-- Hero Section -->
@@ -63,4 +155,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
